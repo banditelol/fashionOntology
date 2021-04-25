@@ -112,12 +112,6 @@
         <Class IRI="#PakaianDescriptor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PakaianOccasion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PakaianUndangan"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Panjang"/>
     </Declaration>
     <Declaration>
@@ -365,23 +359,6 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#PakaianUndangan"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Pakaian"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#fitForOccasion"/>
-                <Class IRI="#Undangan"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#PakaianUndangan"/>
-        <ObjectHasValue>
-            <ObjectProperty IRI="#fitForOccasion"/>
-            <NamedIndividual IRI="#UndanganNikahan"/>
-        </ObjectHasValue>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#PanjangUndangan"/>
         <ObjectIntersectionOf>
             <Class IRI="#Panjang"/>
@@ -390,13 +367,6 @@
                 <Class IRI="#Undangan"/>
             </ObjectMinCardinality>
         </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#UndanganAttendee"/>
-        <ObjectMinCardinality cardinality="1">
-            <ObjectProperty IRI="#wearForOccasion"/>
-            <Class IRI="#PakaianUndangan"/>
-        </ObjectMinCardinality>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Aksesoris"/>
@@ -412,10 +382,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BajuUndangan"/>
-        <Class IRI="#PakaianUndangan"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#BajuUndangan"/>
         <ObjectHasValue>
             <ObjectProperty IRI="#hasFormality"/>
             <NamedIndividual IRI="#Formal"/>
@@ -428,10 +394,6 @@
     <SubClassOf>
         <Class IRI="#Celana"/>
         <Class IRI="#Pakaian"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CelanaUndangan"/>
-        <Class IRI="#PakaianUndangan"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Color"/>
@@ -569,14 +531,6 @@
     <SubClassOf>
         <Class IRI="#Olahraga"/>
         <Class IRI="#Occasion"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PakaianOccasion"/>
-        <Class IRI="#Pakaian"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PakaianUndangan"/>
-        <Class IRI="#PakaianOccasion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Panjang"/>
@@ -1117,10 +1071,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#wearBaju"/>
         <Class IRI="#Baju"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#wearForOccasion"/>
-        <Class IRI="#PakaianOccasion"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#wearKemeja"/>
