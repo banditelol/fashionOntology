@@ -238,6 +238,21 @@
         <NamedIndividual IRI="#Biru"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BlazerAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlazerCream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlazerNavy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlazerPattern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BootsCoklat"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Budi"/>
     </Declaration>
     <Declaration>
@@ -292,10 +307,25 @@
         <NamedIndividual IRI="#DasiHitam"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#FlipFlopBiru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FlipFlopPutih"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Formal"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gelang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HodieAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HodieHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HodieMarron"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hot"/>
@@ -304,7 +334,37 @@
         <NamedIndividual IRI="#Indoor"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#JaketArmy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JaketBlueDenim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JaketCoklat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JaketHitamDenim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JaketJeansHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JaketParasutHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JaketZipperHitam"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#JamTangan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JasAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JasKotakHijau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JasMarron"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#JeansHitam"/>
@@ -412,6 +472,12 @@
         <NamedIndividual IRI="#Outdoor"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#PantofelCoklat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PantofelHitam"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#PantofelPink"/>
     </Declaration>
     <Declaration>
@@ -427,10 +493,55 @@
         <NamedIndividual IRI="#Sekolah"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SendalJepit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SneakersAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SneakersCoklat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SneakersHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SneakersMerah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SneakersPutih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SportAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SportHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SportMerah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SportPutih"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Subtle"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Surya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SweaterAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SweaterArmy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SweaterCoklat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SweaterHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SweaterNavy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TopiHitam"/>
@@ -1290,6 +1401,26 @@
         <NamedIndividual IRI="#Biru"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Jas"/>
+        <NamedIndividual IRI="#BlazerAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jas"/>
+        <NamedIndividual IRI="#BlazerCream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jas"/>
+        <NamedIndividual IRI="#BlazerNavy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jas"/>
+        <NamedIndividual IRI="#BlazerPattern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Boots"/>
+        <NamedIndividual IRI="#BootsCoklat"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#UndanganAttendee"/>
         <NamedIndividual IRI="#Budi"/>
     </ClassAssertion>
@@ -1374,6 +1505,14 @@
         <NamedIndividual IRI="#DasiHitam"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Flipflop"/>
+        <NamedIndividual IRI="#FlipFlopBiru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flipflop"/>
+        <NamedIndividual IRI="#FlipFlopPutih"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Formality"/>
         <NamedIndividual IRI="#Formal"/>
     </ClassAssertion>
@@ -1386,6 +1525,18 @@
         <NamedIndividual IRI="#Gelang"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#HodieAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#HodieHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#HodieMarron"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Temperature"/>
         <NamedIndividual IRI="#Hot"/>
     </ClassAssertion>
@@ -1394,8 +1545,44 @@
         <NamedIndividual IRI="#Indoor"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#JaketArmy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#JaketBlueDenim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#JaketCoklat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#JaketHitamDenim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#JaketJeansHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#JaketParasutHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jaket"/>
+        <NamedIndividual IRI="#JaketZipperHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#JamTangan"/>
         <NamedIndividual IRI="#JamTangan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jas"/>
+        <NamedIndividual IRI="#JasAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jas"/>
+        <NamedIndividual IRI="#JasKotakHijau"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Panjang"/>
@@ -1535,6 +1722,14 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Pantofel"/>
+        <NamedIndividual IRI="#PantofelCoklat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pantofel"/>
+        <NamedIndividual IRI="#PantofelHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pantofel"/>
         <NamedIndividual IRI="#PantofelPink"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1554,12 +1749,72 @@
         <NamedIndividual IRI="#Sekolah"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Sendal"/>
+        <NamedIndividual IRI="#SendalJepit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sneakers"/>
+        <NamedIndividual IRI="#SneakersAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sneakers"/>
+        <NamedIndividual IRI="#SneakersCoklat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sneakers"/>
+        <NamedIndividual IRI="#SneakersHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sneakers"/>
+        <NamedIndividual IRI="#SneakersMerah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sneakers"/>
+        <NamedIndividual IRI="#SneakersPutih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#SportAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#SportHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#SportMerah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#SportPutih"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Color"/>
         <NamedIndividual IRI="#Subtle"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OccasionAttendee"/>
         <NamedIndividual IRI="#Surya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweater"/>
+        <NamedIndividual IRI="#SweaterAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweater"/>
+        <NamedIndividual IRI="#SweaterArmy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweater"/>
+        <NamedIndividual IRI="#SweaterCoklat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweater"/>
+        <NamedIndividual IRI="#SweaterHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweater"/>
+        <NamedIndividual IRI="#SweaterNavy"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Topi"/>
