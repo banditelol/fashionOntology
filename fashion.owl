@@ -244,10 +244,49 @@
         <NamedIndividual IRI="#Casual"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#CelanaKainMarron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CelanaKainPanjangAbuAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CelanaKainPanjangNavy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CelanaKainPattern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CelanaOlahragaPendek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CelanaPanjangKainAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CelanaPanjangLegging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CelanaPendek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CelanaPendekNavy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChinoPantsPanjang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChinoPantsPanjangCoklat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChinoPantsPanjangPutih"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Cold"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DasiGarisAbu"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DasiHitam"/>
@@ -271,7 +310,43 @@
         <NamedIndividual IRI="#JeansHitam"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#JeansNavyPanjang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JeansPanjang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JoggingPantsAbuPanjang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JoggingPantsAbuPutih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JoggingPantsHitamPanjang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KaosGymHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KaosHitamPendek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KaosPendekStripBiruPutih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KaosPendekStriped"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KaosPolos"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#KemejaBatik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaBatikCoklatPanjang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaBatikPanjangCoklat"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#KemejaBiru"/>
@@ -280,7 +355,37 @@
         <NamedIndividual IRI="#KemejaHitam"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#KemejaKotakKotak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaNavyPanjang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaPanjangAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaPanjangBiru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaPendekNavy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaPendekStripPutih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaPutih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaPutihPanjang"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#KemejaTerang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LeggingAbuAbu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LeggingHitam"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Light"/>
@@ -310,6 +415,12 @@
         <NamedIndividual IRI="#PantofelPink"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#PoloHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoloPutih"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Rapat"/>
     </Declaration>
     <Declaration>
@@ -320,6 +431,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Surya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TopiHitam"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Undangan"/>
@@ -373,6 +487,13 @@
     <SubClassOf>
         <Class IRI="#Dasi"/>
         <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Wisuda"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dasi"/>
+        <ObjectHasValue>
             <ObjectProperty IRI="#hasFormality"/>
             <NamedIndividual IRI="#Formal"/>
         </ObjectHasValue>
@@ -412,7 +533,14 @@
         <Class IRI="#JamTangan"/>
         <ObjectHasValue>
             <ObjectProperty IRI="#fitForOccasion"/>
-            <NamedIndividual IRI="#Olahraga"/>
+            <NamedIndividual IRI="#Melayat"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JamTangan"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Nongkrong"/>
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -420,6 +548,13 @@
         <ObjectHasValue>
             <ObjectProperty IRI="#fitForOccasion"/>
             <NamedIndividual IRI="#Rapat"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JamTangan"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Sekolah"/>
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -445,7 +580,7 @@
         <Class IRI="#Kemeja"/>
         <ObjectHasValue>
             <ObjectProperty IRI="#fitForOccasion"/>
-            <NamedIndividual IRI="#MelayatKakekTeman"/>
+            <NamedIndividual IRI="#Melayat"/>
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
@@ -496,6 +631,27 @@
     <SubClassOf>
         <Class IRI="#Oblong"/>
         <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Nongkrong"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oblong"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Sekolah"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oblong"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Undangan"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oblong"/>
+        <ObjectHasValue>
             <ObjectProperty IRI="#hasFormality"/>
             <NamedIndividual IRI="#Casual"/>
         </ObjectHasValue>
@@ -530,6 +686,41 @@
         </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Panjang"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Melayat"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panjang"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Nongkrong"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panjang"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Olahraga"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panjang"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Undangan"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panjang"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Wisuda"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Pantofel"/>
         <Class IRI="#Footwear"/>
     </SubClassOf>
@@ -538,8 +729,43 @@
         <Class IRI="#Celana"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Pendek"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Melayat"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pendek"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Olahraga"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Polo"/>
         <Class IRI="#Baju"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polo"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Olahraga"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polo"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Rapat"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polo"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Wisuda"/>
+        </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Polyester"/>
@@ -582,12 +808,47 @@
         <Class IRI="#Aksesoris"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Topi"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Olahraga"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Training"/>
         <Class IRI="#Celana"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Training"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Olahraga"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tshirt"/>
         <Class IRI="#Baju"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tshirt"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Olahraga"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tshirt"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Sekolah"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tshirt"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Undangan"/>
+        </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Undangan"/>
@@ -691,6 +952,54 @@
         <NamedIndividual IRI="#Casual"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#CelanaKainMarron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#CelanaKainPanjangAbuAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#CelanaKainPanjangNavy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#CelanaKainPattern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training"/>
+        <NamedIndividual IRI="#CelanaOlahragaPendek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#CelanaPanjangKainAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training"/>
+        <NamedIndividual IRI="#CelanaPanjangLegging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pendek"/>
+        <NamedIndividual IRI="#CelanaPendek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training"/>
+        <NamedIndividual IRI="#CelanaPendekNavy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#ChinoPantsPanjang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#ChinoPantsPanjangCoklat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#ChinoPantsPanjangPutih"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Temperature"/>
         <NamedIndividual IRI="#Cold"/>
     </ClassAssertion>
@@ -700,6 +1009,18 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Dasi"/>
+        <NamedIndividual IRI="#DasiGarisAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rapat"/>
+        <NamedIndividual IRI="#DasiGarisAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dasi"/>
+        <NamedIndividual IRI="#DasiHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wisuda"/>
         <NamedIndividual IRI="#DasiHitam"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -731,8 +1052,56 @@
         <NamedIndividual IRI="#JeansHitam"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#JeansNavyPanjang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#JeansPanjang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training"/>
+        <NamedIndividual IRI="#JoggingPantsAbuPanjang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training"/>
+        <NamedIndividual IRI="#JoggingPantsAbuPutih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training"/>
+        <NamedIndividual IRI="#JoggingPantsHitamPanjang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tshirt"/>
+        <NamedIndividual IRI="#KaosGymHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tshirt"/>
+        <NamedIndividual IRI="#KaosHitamPendek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tshirt"/>
+        <NamedIndividual IRI="#KaosPendekStripBiruPutih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tshirt"/>
+        <NamedIndividual IRI="#KaosPendekStriped"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Oblong"/>
+        <NamedIndividual IRI="#KaosPolos"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Kemeja"/>
         <NamedIndividual IRI="#KemejaBatik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaBatikCoklatPanjang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaBatikPanjangCoklat"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Kemeja"/>
@@ -744,7 +1113,47 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaKotakKotak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaNavyPanjang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaPanjangAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaPanjangBiru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaPendekNavy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaPendekStripPutih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaPutih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaPutihPanjang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
         <NamedIndividual IRI="#KemejaTerang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training"/>
+        <NamedIndividual IRI="#LeggingAbuAbu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training"/>
+        <NamedIndividual IRI="#LeggingHitam"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Color"/>
@@ -779,6 +1188,14 @@
         <NamedIndividual IRI="#PantofelPink"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Polo"/>
+        <NamedIndividual IRI="#PoloHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Polo"/>
+        <NamedIndividual IRI="#PoloPutih"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Rapat"/>
         <NamedIndividual IRI="#Rapat"/>
     </ClassAssertion>
@@ -795,6 +1212,10 @@
         <NamedIndividual IRI="#Surya"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Topi"/>
+        <NamedIndividual IRI="#TopiHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Undangan"/>
         <NamedIndividual IRI="#Undangan"/>
     </ClassAssertion>
@@ -806,6 +1227,11 @@
         <ObjectProperty IRI="#wearPakaian"/>
         <NamedIndividual IRI="#Adit"/>
         <NamedIndividual IRI="#JeansHitam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fitForOccasion"/>
+        <NamedIndividual IRI="#DasiGarisAbu"/>
+        <NamedIndividual IRI="#Rapat"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasColor"/>
@@ -845,7 +1271,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#attendOccasion"/>
         <NamedIndividual IRI="#Surya"/>
-        <NamedIndividual IRI="#Undangan"/>
+        <NamedIndividual IRI="#Olahraga"/>
     </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#attendOccasion"/>
