@@ -1,0 +1,1164 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/share/ontologies/2021/3/clothing-occasion-recommendation"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/share/ontologies/2021/3/clothing-occasion-recommendation">
+    <Prefix name="" IRI="http://www.semanticweb.org/share/ontologies/2021/3/clothing-occasion-recommendation"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aksesoris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bahan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baju"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BajuUndangan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boots"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Celana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CelanaUndangan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cotton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dasi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flipflop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Footwear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gelang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jaket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JamTangan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kemeja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KemejaUndangan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lacoste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luaran"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Melayat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nongkrong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oblong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Occasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OccasionAttendee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OccasionDescriptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OccasionFormality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Olahraga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pakaian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PakaianDescriptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PakaianOccasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PakaianUndangan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Panjang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PanjangUndangan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pantofel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pendek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polyester"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rapat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sekolah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sendal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SepatuSendal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sneakers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Training"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tshirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Undangan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UndanganAttendee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wisuda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wool"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attendOccasion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attendUndangan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attendedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#feasiblePakaian"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fitForOccasion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAksesoris"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBaju"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCelana"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFootwear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFormality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLuaran"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOccasionFormality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOccasionProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPakaianProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPersonProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wearBaju"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wearForOccasion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wearKemeja"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wearPakaian"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wornBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Batik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Biru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Budi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DasiHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Formal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JeansHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaBatik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaBiru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaHitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KemejaTerang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Melayat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MelayatKakekTeman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mencrang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OblongMencrang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PantofelPink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rapat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Subtle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Surya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UndanganNikahan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/share/ontologies/2021/3/clothing-occasion#Melayat"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#BajuUndangan"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Baju"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#fitForOccasion"/>
+                <Class IRI="#Undangan"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CelanaUndangan"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Celana"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#fitForOccasion"/>
+                <Class IRI="#Undangan"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Formality"/>
+        <Class IRI="#OccasionFormality"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#KemejaUndangan"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Kemeja"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasFormality"/>
+                <NamedIndividual IRI="#Formal"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PakaianUndangan"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Pakaian"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#fitForOccasion"/>
+                <Class IRI="#Undangan"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PakaianUndangan"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#UndanganNikahan"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PanjangUndangan"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Panjang"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#fitForOccasion"/>
+                <Class IRI="#Undangan"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UndanganAttendee"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#wearForOccasion"/>
+            <Class IRI="#PakaianUndangan"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Aksesoris"/>
+        <Class IRI="#Pakaian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bahan"/>
+        <Class IRI="#PakaianDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baju"/>
+        <Class IRI="#Pakaian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BajuUndangan"/>
+        <Class IRI="#PakaianUndangan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BajuUndangan"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasFormality"/>
+            <NamedIndividual IRI="#Formal"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boots"/>
+        <Class IRI="#Footwear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Celana"/>
+        <Class IRI="#Pakaian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CelanaUndangan"/>
+        <Class IRI="#PakaianUndangan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Color"/>
+        <Class IRI="#PakaianDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cotton"/>
+        <Class IRI="#Bahan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dasi"/>
+        <Class IRI="#Aksesoris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dasi"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#Melayat"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dasi"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasFormality"/>
+            <NamedIndividual IRI="#Formal"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flipflop"/>
+        <Class IRI="#Footwear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Footwear"/>
+        <Class IRI="#Pakaian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Formality"/>
+        <Class IRI="#PakaianDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gelang"/>
+        <Class IRI="#Aksesoris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jaket"/>
+        <Class IRI="#Luaran"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JamTangan"/>
+        <Class IRI="#Aksesoris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jas"/>
+        <Class IRI="#Luaran"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jeans"/>
+        <Class IRI="#Bahan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kemeja"/>
+        <Class IRI="#Baju"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kemeja"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <NamedIndividual IRI="#MelayatKakekTeman"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kemeja"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasFormality"/>
+            <NamedIndividual IRI="#Formal"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KemejaUndangan"/>
+        <Class IRI="#BajuUndangan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lacoste"/>
+        <Class IRI="#Bahan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#OccasionDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luaran"/>
+        <Class IRI="#Pakaian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melayat"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melayat"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOccasionFormality"/>
+            <NamedIndividual IRI="#Formal"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nongkrong"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nongkrong"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOccasionFormality"/>
+            <NamedIndividual IRI="#Casual"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oblong"/>
+        <Class IRI="#Baju"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oblong"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#fitForOccasion"/>
+            <Class IRI="http://www.semanticweb.org/share/ontologies/2021/3/clothing-occasion#Melayat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oblong"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasFormality"/>
+            <NamedIndividual IRI="#Casual"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OccasionAttendee"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OccasionFormality"/>
+        <Class IRI="#OccasionDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Olahraga"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PakaianOccasion"/>
+        <Class IRI="#Pakaian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PakaianUndangan"/>
+        <Class IRI="#PakaianOccasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panjang"/>
+        <Class IRI="#Celana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panjang"/>
+        <ObjectUnionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasFormality"/>
+                <NamedIndividual IRI="#Casual"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasFormality"/>
+                <NamedIndividual IRI="#Formal"/>
+            </ObjectHasValue>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanjangUndangan"/>
+        <Class IRI="#CelanaUndangan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pantofel"/>
+        <Class IRI="#Footwear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pendek"/>
+        <Class IRI="#Celana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polo"/>
+        <Class IRI="#Baju"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polyester"/>
+        <Class IRI="#Bahan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rapat"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sekolah"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sendal"/>
+        <Class IRI="#Footwear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SepatuSendal"/>
+        <Class IRI="#Footwear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sneakers"/>
+        <Class IRI="#Footwear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Footwear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweater"/>
+        <Class IRI="#Luaran"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#OccasionDescriptor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topi"/>
+        <Class IRI="#Aksesoris"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Training"/>
+        <Class IRI="#Celana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tshirt"/>
+        <Class IRI="#Baju"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Undangan"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Undangan"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#hasOccasionFormality"/>
+            <NamedIndividual IRI="#Formal"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UndanganAttendee"/>
+        <Class IRI="#OccasionAttendee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wisuda"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wool"/>
+        <Class IRI="#Bahan"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Aksesoris"/>
+        <Class IRI="#Baju"/>
+        <Class IRI="#Celana"/>
+        <Class IRI="#Footwear"/>
+        <Class IRI="#Luaran"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Boots"/>
+        <Class IRI="#Flipflop"/>
+        <Class IRI="#Pantofel"/>
+        <Class IRI="#Sendal"/>
+        <Class IRI="#SepatuSendal"/>
+        <Class IRI="#Sneakers"/>
+        <Class IRI="#Sports"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cotton"/>
+        <Class IRI="#Jeans"/>
+        <Class IRI="#Lacoste"/>
+        <Class IRI="#Polyester"/>
+        <Class IRI="#Wool"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dasi"/>
+        <Class IRI="#Gelang"/>
+        <Class IRI="#JamTangan"/>
+        <Class IRI="#Topi"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Jaket"/>
+        <Class IRI="#Jas"/>
+        <Class IRI="#Sweater"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Kemeja"/>
+        <Class IRI="#Oblong"/>
+        <Class IRI="#Polo"/>
+        <Class IRI="#Tshirt"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Melayat"/>
+        <Class IRI="#Nongkrong"/>
+        <Class IRI="#Olahraga"/>
+        <Class IRI="#Rapat"/>
+        <Class IRI="#Sekolah"/>
+        <Class IRI="#Undangan"/>
+        <Class IRI="#Wisuda"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Panjang"/>
+        <Class IRI="#Pendek"/>
+        <Class IRI="#Training"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Adit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Batik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Biru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UndanganAttendee"/>
+        <NamedIndividual IRI="#Budi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Formality"/>
+        <NamedIndividual IRI="#Casual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OccasionFormality"/>
+        <NamedIndividual IRI="#Casual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temperature"/>
+        <NamedIndividual IRI="#Cold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Dark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dasi"/>
+        <NamedIndividual IRI="#DasiHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Formality"/>
+        <NamedIndividual IRI="#Formal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OccasionFormality"/>
+        <NamedIndividual IRI="#Formal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temperature"/>
+        <NamedIndividual IRI="#Hot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Indoor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Panjang"/>
+        <NamedIndividual IRI="#JeansHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaBatik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaBiru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaHitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kemeja"/>
+        <NamedIndividual IRI="#KemejaTerang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/share/ontologies/2021/3/clothing-occasion#Melayat"/>
+        <NamedIndividual IRI="#Melayat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/share/ontologies/2021/3/clothing-occasion#Melayat"/>
+        <NamedIndividual IRI="#MelayatKakekTeman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Mencrang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Oblong"/>
+        <NamedIndividual IRI="#OblongMencrang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Outdoor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pantofel"/>
+        <NamedIndividual IRI="#PantofelPink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Color"/>
+        <NamedIndividual IRI="#Subtle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OccasionAttendee"/>
+        <NamedIndividual IRI="#Surya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Undangan"/>
+        <NamedIndividual IRI="#UndanganNikahan"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attendUndangan"/>
+        <NamedIndividual IRI="#Adit"/>
+        <NamedIndividual IRI="#UndanganNikahan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wearPakaian"/>
+        <NamedIndividual IRI="#Adit"/>
+        <NamedIndividual IRI="#JeansHitam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#DasiHitam"/>
+        <NamedIndividual IRI="#Dark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#KemejaBatik"/>
+        <NamedIndividual IRI="#Batik"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#KemejaBiru"/>
+        <NamedIndividual IRI="#Biru"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#KemejaHitam"/>
+        <NamedIndividual IRI="#Dark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#KemejaTerang"/>
+        <NamedIndividual IRI="#Mencrang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#PantofelPink"/>
+        <NamedIndividual IRI="#Mencrang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFormality"/>
+        <NamedIndividual IRI="#PantofelPink"/>
+        <NamedIndividual IRI="#Formal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attendOccasion"/>
+        <NamedIndividual IRI="#Surya"/>
+        <NamedIndividual IRI="#Melayat"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#attendOccasion"/>
+        <ObjectProperty IRI="#hasPersonProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#attendUndangan"/>
+        <ObjectProperty IRI="#attendOccasion"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#attendedBy"/>
+        <ObjectProperty IRI="#hasOccasionProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#feasiblePakaian"/>
+        <ObjectProperty IRI="#hasOccasionProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#fitForOccasion"/>
+        <ObjectProperty IRI="#hasPakaianProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasColor"/>
+        <ObjectProperty IRI="#hasPakaianProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFormality"/>
+        <ObjectProperty IRI="#hasPakaianProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOccasionFormality"/>
+        <ObjectProperty IRI="#hasOccasionProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOccasionProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPakaianProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPersonProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#wearBaju"/>
+        <ObjectProperty IRI="#wearPakaian"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#wearForOccasion"/>
+        <ObjectProperty IRI="#wearPakaian"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#wearKemeja"/>
+        <ObjectProperty IRI="#wearPakaian"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#wearPakaian"/>
+        <ObjectProperty IRI="#hasPersonProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#wornBy"/>
+        <ObjectProperty IRI="#hasPakaianProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#attendOccasion"/>
+        <ObjectProperty IRI="#attendedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#feasiblePakaian"/>
+        <ObjectProperty IRI="#fitForOccasion"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#wearPakaian"/>
+        <ObjectProperty IRI="#wornBy"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasOccasionFormality"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attendOccasion"/>
+        <Class IRI="#OccasionAttendee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attendUndangan"/>
+        <Class IRI="#UndanganAttendee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attendedBy"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#feasiblePakaian"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fitForOccasion"/>
+        <Class IRI="#Pakaian"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAksesoris"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBaju"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCelana"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#Pakaian"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFootwear"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFormality"/>
+        <Class IRI="#Pakaian"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLuaran"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOccasionFormality"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOccasionProperty"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPakaianProperty"/>
+        <Class IRI="#Pakaian"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPersonProperty"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wearBaju"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wearForOccasion"/>
+        <Class IRI="#OccasionAttendee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wearKemeja"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wearPakaian"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wornBy"/>
+        <Class IRI="#Pakaian"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attendOccasion"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attendUndangan"/>
+        <Class IRI="#Undangan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attendedBy"/>
+        <Class IRI="#OccasionAttendee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#feasiblePakaian"/>
+        <Class IRI="#Pakaian"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fitForOccasion"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAksesoris"/>
+        <Class IRI="#Aksesoris"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBaju"/>
+        <Class IRI="#Baju"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCelana"/>
+        <Class IRI="#Celana"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#Color"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFootwear"/>
+        <Class IRI="#Footwear"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFormality"/>
+        <Class IRI="#Formality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLuaran"/>
+        <Class IRI="#Luaran"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOccasionFormality"/>
+        <Class IRI="#OccasionFormality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wearBaju"/>
+        <Class IRI="#Baju"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wearForOccasion"/>
+        <Class IRI="#PakaianOccasion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wearKemeja"/>
+        <Class IRI="#Kemeja"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wearPakaian"/>
+        <Class IRI="#Pakaian"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wornBy"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#attendOccasion"/>
+            <ObjectProperty IRI="#feasiblePakaian"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#wearPakaian"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#hasFormality"/>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#hasOccasionFormality"/>
+            </ObjectInverseOf>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#fitForOccasion"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
