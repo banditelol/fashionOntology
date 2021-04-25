@@ -1876,7 +1876,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#attendOccasion"/>
         <NamedIndividual IRI="#Surya"/>
-        <NamedIndividual IRI="#Olahraga"/>
+        <NamedIndividual IRI="#Melayat"/>
     </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#attendOccasion"/>
